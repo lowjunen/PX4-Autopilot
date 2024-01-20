@@ -17,6 +17,9 @@ publications:
   - topic: /fmu/out/vehicle_torque_setpoint
     type: px4_msgs::msg::VehicleTorqueSetpoint
     
+  - topic: /fmu/out/actuator_outputs
+    type: px4_msgs::msg::ActuatorOutputs
+    
 subscriptions:
 
   - topic: /fmu/in/offboard_control_mode
